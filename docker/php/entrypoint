@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+if [ "$APP_ENV" = "production" ]; then
+    php /application/artisan route:cache
+    php /application/artisan artisan view:cache
+    php /application/artisan config:cache
+fi
+
+exec "$@"

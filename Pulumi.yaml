@@ -1,0 +1,23 @@
+name: laravel-pulumi-eks
+runtime: nodejs
+description: Larapulu
+template:
+  config:
+    APP_KEY:
+      description: Application encryption key
+      secret: true
+    APP_DEBUG:
+      description: Application debug mode
+      defaut: "0"
+    APP_ENV:
+      description: Application environment
+      defaut: development
+    APP_URL:
+      description: Application URL
+      default: my-laravel.domain.com
+    LOG_CHANNELL:
+      description: Application Logging Channel
+      default: stderr
+    TELESCOPE_ENABLED:
+      description: Application Telescope enabled
+      default: "0"

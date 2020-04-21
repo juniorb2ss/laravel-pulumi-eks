@@ -1,0 +1,12 @@
+queue:
+  name: default
+  command: ['php', '/application/artisan', 'queue:work','--delay', '60', '-vvv', '-n']
+  pod:
+    replicas: 1
+    resources:
+      request:
+        cpu: '200m'
+        memory: '200Mi'
+      limit:
+        cpu: '500m'
+        memory: '500Mi'

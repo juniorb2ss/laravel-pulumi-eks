@@ -1,0 +1,12 @@
+{
+    "name": "laravel-pulumi-eks",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "js-yaml": "^3.13.1",
+        "@pulumi/eks": "^0.18.24",
+        "@pulumi/kubernetes": "^2.0.0",
+        "@pulumi/pulumi": "^2.0.0",
+        "@pulumi/awsx": "^0.19.3"
+    }
+}

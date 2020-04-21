@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+if [ -f /etc/nginx/conf.d/application.template ]; then
+    envsubst '\$PHP_FPM_HOST \{$APP_VERSION:-latest}' </etc/nginx/conf.d/application.template >/etc/nginx/conf.d/default.conf
+fi
+
+exec "$@"
