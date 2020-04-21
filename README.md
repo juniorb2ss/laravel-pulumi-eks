@@ -36,6 +36,9 @@ Documentation: https://www.pulumi.com/docs/get-started/install/
 Please, follow the steps describe here: https://www.pulumi.com/docs/intro/cloud-providers/aws/setup/
 - No more  steps.
 "What?" Yeah. Like I said, it's magic.
+
+## Stack resources
+![](https://i.imgur.com/42RnqXX.png)
   
 ## Let's deploy :rocket: 
 
