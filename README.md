@@ -50,7 +50,7 @@ Now that we already have Pulumi and Kubectl already installed, let's start our s
 2. Configure Laravel `APP_KEY`
 
 ```bash
-#pulumi config set laravel-pulumi-eks:APP_KEY <value> --secret`
+# pulumi config set laravel-pulumi-eks:APP_KEY <value> --secret`
 ```
 
 3. Review resources and stack preview
@@ -94,7 +94,7 @@ Expected output:
 ```bash
    loadBalancer: "ac908c4876a2a4b079c72f5a0a05af7a-607904941.us-east-2.elb.amazonaws.com"
 Resources:
-    72 unchanged
+    72 changed
 ```
 
 4. Access your Laravel application
