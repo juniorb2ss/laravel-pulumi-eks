@@ -41,19 +41,25 @@ Please, follow the steps describe here: https://www.pulumi.com/docs/intro/cloud-
 
 Now that we already have Pulumi and Kubectl already installed, let's start our stack.
 
-1. Initialize stack
+1. Install dependencies
+
+```base
+# npm install
+```
+
+2. Initialize stack
 
 ```base
 # pulumi stack init yourStackName
 ```
 
-2. Configure Laravel `APP_KEY`
+3. Configure Laravel `APP_KEY`
 
 ```bash
 # pulumi config set laravel-pulumi-eks:APP_KEY <value> --secret`
 ```
 
-3. Review resources and stack preview
+4. Review resources and stack preview
 
 ```bash
 # pulumi preview
