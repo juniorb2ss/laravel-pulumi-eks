@@ -116,10 +116,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 ## Tips and Tricks
-- How to see pods and cluster informations
+- How to see pods and cluster information?
+
 Read kubectl documentation, bastard!
 
 - How to destroy, scale change, etc?
+
 Read Kubernetes documentation, bastard!
 
 ## Free software! Oh, Yeah!
